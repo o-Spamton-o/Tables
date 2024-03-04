@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Tables</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <h1>My School Timetable</h1>
+    <h3>M.E. LaZerte High School</h3>
+    <p>2023-2024</p>
+    <hr />
+
+    <!-- Add your time-table here -->
+    <!-- We will do this together, but a screenshot is in the images folder -->
+    <table>
+      <!-- Row 1 -->
+      <tr id="row-1">
+        <td>Time</td>
+        <td>Day 1</td>
+        <td>Day 2</td>
+      </tr>
+
+      <!-- Row 2 -->
+      <tr>
+        <td class="block">
+          <p>Block 1</p>
+          <p class="time">9:00-10:22</p>
+        </td>
+
+        <td class="subject" colspan="2">Science 10</td>
+      </tr>
+
+      <!-- Row 3 -->
+      <tr>
+        <td class="block">
+          <p>Block 2</p>
+          <p class="time">10:27-11:45</p>
+        </td>
+        <td class="subject">Foods 10</td>
+        <td class="subject">Digital Arts 10</td>
+      </tr>
+
+      <!-- Row 4 -->
+      <tr>
+        <td colspan="3">
+          <p>Lunch</p>
+          <p class="time">11:49-12:34</p>
+        </td>
+      </tr>
+
+      <!-- Row 5 -->
+      <tr>
+        <td class="block">
+          <p>Block 3</p>
+          <p class="time">12:34-1:56</p>
+        </td>
+        <td class="subject" colspan="2">Social 10-1</td>
+      </tr>
+
+      <!-- Row 6 -->
+      <tr>
+        <td class="block">
+          <p>Block 4</p>
+          <p class="time">2:01-3:23</p>
+        </td>
+        <td class="subject">Math 10C</td>
+        <td class="subject">English 10-1</td>
+      </tr>
+    </table>
+
+    <!-- Add your socials-table here -->
+    <!-- An image of this table is in the images folder -->
+    <!-- Replicate the table as close to the image as you can using HTML table elements -->
+
+    <table id="table2" style="width: 399px;">
+      <tr>
+        <td class="td3" colspan="2"><p><h1>Find me on all the socials</h1></p>
+        <p><hr></p></td>
+      </tr>
+      <tr>
+        <td class="td3"><img src="images/x.png" alt="X Logo" /></td>
+        <td class="td3">
+          <img src="images/snapchat.jpg" alt="Snapchat Logo" />
+        </td>
+      </tr>
+      <tr>
+        <td class="td3">
+          <img id="bottom-img" src="images/instagram.png" alt="Instagram Logo" />
+        </td>
+        <td class="td3"><img id="bottom-img" src="images/tiktok.png" alt="Tiktok Logo" /></td>
+      </tr>
+    </table>
+
+    <!-- Add your college-table here -->
+    <!-- An image of this table is in the images folder -->
+    <!-- Replicate the table as close to the image as you can using HTML table elements -->
+    <table id="table3">
+      <tr>
+        <td id="college" colspan="9"><b>COLLEGE TIME TABLE</b></td>
+      </tr>
+        <tr class="tr">
+          <td class="tds">
+                     
+          </td>
+          <td class="tds">
+            8:30-9:30
+          </td>
+          <td class="tds">9:30-10:30</td>
+          <td class="tds">10:30-11:30</td>
+          <td class="tds">11:30-12:30</td>
+          <td class="tds">12:30-2:00</td>
+          <td class="tds">2:00-3:00</td>
+          <td class="tds">3:00-4:00</td>
+          <td class="tds">4:00-5:00</td>
+        </tr>
+        <tr class="tr">
+          <td class="tds">MONDAY</td>
+          <td class="tds">---</td>
+          <td class="tds" id="blue">SUB1</td>
+          <td class="tds" id="pink">SUB2</td>
+          <td class="tds" id="red">SUB3</td>
+          <td class="tds" rowspan="6">
+              <p>L</p>
+              <p>U</p>
+              <p>N</p>
+              <p>C</p>
+              <p>H</p>
+          </td>
+          <td class="tds" id="brown">SUB4</td>
+          <td class="tds" id="lightbrown">SUB5</td>
+          <td class="tds">counselling class</td>
+        </tr>
+        <tr class="tr">
+          <td class="tds">TUESDAY</td>
+          <td class="tds" id="blue">SUB1</td>
+          <td class="tds" id="red">SUB2</td>
+          <td class="tds" id="pink">SUB3</td>
+          <td class="tds">---</td>
+          <td class="tds" id="yellow">SUB4</td>
+          <td class="tds" id="brown">SUB5</td>
+          <td class="tds">library</td>
+        </tr>
+        <tr class="tr">
+          <td class="tds">WEDNESDAY</td>
+          <td class="tds" id="pink">SUB1</td>
+          <td class="tds" id="yellow">SUB2</td>
+          <td class="tds" id="lightbrown">SWA</td>
+          <td class="tds">---</td>
+          <td class="tds" id="green" colspan="3">lab</td> 
+        </tr>
+        <tr class="tr">
+          <td class="tds">THRUSDAY</td>
+          <td class="tds">SUB1</td>
+          <td class="tds" id="lightbrown">SUB2</td>
+          <td class="tds" id="yellow">SUB3</td>
+          <td class="tds">---</td>
+          <td class="tds" id="blue">SUB4</td>
+          <td class="tds" id="red">SUB5</td>
+          <td class="tds">library</td>
+        </tr>
+        <tr class="tr">
+          <td class="tds">FRIDAY</td>
+          <td class="tds" id="yellow">SUB1</td>
+          <td class="tds" id="brown">SUB2</td>
+          <td class="tds" id="blue">SUB3</td>
+          <td class="tds">---</td>
+          <td class="tds" id="pink">SUB4</td>
+          <td class="tds" id="lightbrown">SUB5</td>
+          <td class="tds">library</td>
+        </tr>
+        <tr class="tr">
+          <td class="tds">SATURDAY</td>
+          <td class="tds" id="red">SUB1</td>
+          <td class="tds" colspan="3">
+            seminar
+          </td>
+          <td class="tds" id="pink">SUB4</td>
+          <td class="tds" id="lightbrown">SUB5</td>
+          <td class="tds">library</td>
+        </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,119 @@
+html {
+  background: #0c6c9d;
+}
+
+body {
+  text-align: center;
+  width: 700px;
+  padding: 30px 50px;
+  margin: 20px auto;
+  border-radius: 20px;
+  background: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+table {
+  border: 1px solid red;
+  margin: 30px auto;
+}
+
+td {
+  border: 1px dotted blue;
+  padding: 10px;
+}
+
+#row-1 {
+  background-color: #053561;
+  color: white;
+}
+
+.block {
+  background: black;
+  color: white;
+}
+
+.time {
+  font-size: 8px;
+  font-style: italic;
+}
+
+.subject:hover {
+  background: #06413a;
+  color: white;
+  cursor: cell;
+  font-size: 12px;
+
+  transition: font-size 0.5s, background 0.5s, color 0.5s;
+}
+
+img {
+  width: 80px;
+}
+
+#table2 {
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  background-color: #0c6997;
+  border-radius: 50px;
+  width: 350px;
+  margin: auto;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  padding-bottom: 20px;
+}
+h1 {
+  padding-top: 24px;
+  padding-bottom: 5pxpx;
+  font-size: 26px;
+}
+.td3 {
+  border: none;
+}
+#table3 {
+  font-family: "Times New Roman", Times, serif;
+  border: none;
+  background-color: skyblue;
+  width: 800px;
+  align-content: center;
+  text-align: center;
+  box-shadow: 10px 10px 25px black;
+}
+.tr {
+  padding: 1px 1px;
+  border: grey solid 2px;
+}
+.tds {
+  border: rgb(90, 89, 89) solid 2px;
+  padding: 1px 1px;
+}
+#college {
+  border: none;
+  color: darkcyan;
+  font-size: 32px;
+  padding-top: 1px;
+  padding-bottom: 15px;
+}
+#blue {
+  color: blue;
+}
+#yellow {
+  color: orange;
+}
+#red {
+  color: red;
+}
+#pink {
+  color: pink;
+}
+#lightbrown {
+  color: rgb(143, 13, 78);
+}
+#brown {
+  color: rgb(80, 13, 13);
+}
+#green {
+  color: green;
+}
